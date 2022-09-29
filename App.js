@@ -1,15 +1,5 @@
 import { useState, useEffect } from "react";
-
-import {
-    Platform,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
-} from "react-native";
-
+import { Platform,  ScrollView,StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import Constants from "expo-constants";
 import * as SQLite from "expo-sqlite";
 
