@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import { StatusBar } from 'expo-status-bar';
 
 import {
@@ -60,7 +59,7 @@ function Items({ done: doneHeading, onPressItem }) {
                     key={id}
                     onPress={() => onPressItem && onPressItem(id)}
                     style={{
-                        backgroundColor: done ? "#1c9963" : "#fff",
+                        backgroundColor: done ? "#003366" : "#fff",
                         borderColor: "#000",
                         borderWidth: 1,
                         padding: 8,
@@ -177,7 +176,7 @@ function useForceUpdate() {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#fff",
+        backgroundColor: "#ddd",
         flex: 1,
         paddingTop: Constants.statusBarHeight,
     },
@@ -190,6 +189,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
     },
     input: {
+     
         borderColor: "#4630eb",
         borderRadius: 4,
         borderWidth: 1,
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
         padding: 8,
     },
     listArea: {
-        backgroundColor: "#f0f0f0",
+        backgroundColor: "#ddd",
         flex: 1,
         paddingTop: 16,
     },
