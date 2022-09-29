@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { StatusBar } from 'expo-status-bar';
 
 import {
     Platform,
